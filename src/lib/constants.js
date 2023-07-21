@@ -285,6 +285,17 @@ export const LIT_CHAINS = {
     type: null,
     vmType: "EVM",
   },
+  publicGoodsNetwork: {
+    contractAddress: null,
+    chainId: 424,
+    name: "Public Goods Network",
+    symbol: "ETH",
+    decimals: 18,
+    rpcUrls: ["https://rpc.publicgoods.network"],
+    blockExplorerUrls: ["https://explorer.publicgoods.network/"],
+    type: null,
+    vmType: "EVM",
+  },
 };
 
 /**
