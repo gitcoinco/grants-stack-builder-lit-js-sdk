@@ -1001,6 +1001,7 @@ export default class LitNodeClient {
 
   async handshakeWithSgx({ url }) {
     const urlWithPath = `${url}/web/handshake`;
+    log(`*********************************** test`);
     log(`handshakeWithSgx ${urlWithPath}`);
     const data = {
       clientPublicKey: "test",
