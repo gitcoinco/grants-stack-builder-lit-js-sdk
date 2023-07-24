@@ -296,6 +296,17 @@ export const LIT_CHAINS = {
     type: null,
     vmType: "EVM",
   },
+  publicGoodsNetworkTestnet: {
+    contractAddress: null,
+    chainId: 58008,
+    name: "Public Goods Network Testnet",
+    symbol: "ETH",
+    decimals: 18,
+    rpcUrls: ["https://sepolia.publicgoods.network/"],
+    blockExplorerUrls: ["https://explorer.sepolia.publicgoods.network/"],
+    type: null,
+    vmType: "EVM",
+  },
 };
 
 /**
