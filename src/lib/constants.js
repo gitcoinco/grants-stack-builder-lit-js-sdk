@@ -385,6 +385,28 @@ export const LIT_COSMOS_CHAINS = {
     blockExplorerUrls: ["https://testnet.bigdipper.live"],
     vmType: "CVM",
   },
+  zksync: {
+    contractAddress: null,
+    chainId: 324,
+    name: 'zkSync Era Mainnet',
+    symbol: 'ETH',
+    decimals: 18,
+    rpcUrls: ['https://mainnet.era.zksync.io'],
+    blockExplorerUrls: ['https://explorer.zksync.io/'],
+    type: null,
+    vmType: 'EVM',
+  },
+  zksyncTestnet: {
+    contractAddress: null,
+    chainId: 280,
+    name: 'zkSync Era Testnet',
+    symbol: 'ETH',
+    decimals: 18,
+    rpcUrls: ['https://testnet.era.zksync.dev'],
+    blockExplorerUrls: ['https://goerli.explorer.zksync.io/'],
+    type: null,
+    vmType: 'EVM',
+  },
 };
 
 /**
