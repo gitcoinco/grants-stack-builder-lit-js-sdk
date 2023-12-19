@@ -329,6 +329,17 @@ export const LIT_CHAINS = {
     type: null,
     vmType: 'EVM',
   },
+  base: {
+    contractAddress: null,
+    chainId: 8453,
+    name: 'Base Mainnet',
+    symbol: 'ETH',
+    decimals: 18,
+    rpcUrls: ['https://mainnet.base.org'],
+    blockExplorerUrls: ['https://basescan.org'],
+    type: null,
+    vmType: 'EVM',
+  },
 };
 
 /**
